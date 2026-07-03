@@ -84,44 +84,130 @@
 <aside class="sidebar" id="sidebar">
 <div class="sidebar-brand"><h1>FinanceOS</h1><span class="version">V7</span></div>
 <div class="nav-item active" data-s="home"><span class="icon">🏠</span><span class="label">Home</span></div>
-<div class="nav-item" data-s="starbucks"><span class="icon">☕</span><span class="label">Pay Center</span></div>
-<div class="nav-item" data-s="budget"><span class="icon">📊</span><span class="label">Spending</span></div>
-<div class="nav-item" data-s="envelopes"><span class="icon">✉️</span><span class="label">Envelopes</span></div>
-<div class="nav-item" data-s="bills"><span class="icon">📅</span><span class="label">Bills</span></div>
-<div class="nav-divider"></div>
-<div class="nav-item" data-s="goals"><span class="icon">🎯</span><span class="label">Goals</span></div>
-<div class="nav-item" data-s="tech"><span class="icon">💻</span><span class="label">Tech Tracker</span></div>
-<div class="nav-item" data-s="investments"><span class="icon">📈</span><span class="label">Investments</span></div>
-<div class="nav-item" data-s="dca"><span class="icon">💹</span><span class="label">DCA Tracker</span></div>
-<div class="nav-item" data-s="speculative"><span class="icon">🚀</span><span class="label">Speculative</span></div>
-<div class="nav-item" data-s="compound"><span class="icon">💰</span><span class="label">Compound Calc</span></div>
-<div class="nav-divider"></div>
-<div class="nav-item" data-s="calendar"><span class="icon">📆</span><span class="label">Calendar</span></div>
-<div class="nav-item" data-s="planner"><span class="icon">📋</span><span class="label">Weekly Plan</span></div>
-<div class="nav-item" data-s="report"><span class="icon">📄</span><span class="label">Monthly Report</span></div>
-<div class="nav-divider"></div>
-<div class="nav-item" data-s="career"><span class="icon">💼</span><span class="label">Career</span></div>
-<div class="nav-item" data-s="sidehustle"><span class="icon">🔨</span><span class="label">Side Hustles</span></div>
-<div class="nav-item" data-s="xp"><span class="icon">⭐</span><span class="label">XP & Quests</span></div>
-<div class="nav-item" data-s="quiz"><span class="icon">🧠</span><span class="label">Finance Quiz</span></div>
+
+<div class="nav-group">
+  <div class="nav-group-header" data-group="money"><span class="nav-group-icon">💰</span><span class="nav-group-label">Money</span><span class="nav-group-arrow">▸</span></div>
+  <div class="nav-group-items" data-group="money">
+    <div class="nav-item" data-s="starbucks"><span class="icon">☕</span><span class="label">Pay Center</span></div>
+    <div class="nav-item" data-s="budget"><span class="icon">📊</span><span class="label">Spending</span></div>
+    <div class="nav-item" data-s="envelopes"><span class="icon">✉️</span><span class="label">Envelopes</span></div>
+    <div class="nav-item" data-s="bills"><span class="icon">📅</span><span class="label">Bills</span></div>
+  </div>
+</div>
+
+<div class="nav-group">
+  <div class="nav-group-header" data-group="grow"><span class="nav-group-icon">📈</span><span class="nav-group-label">Grow</span><span class="nav-group-arrow">▸</span></div>
+  <div class="nav-group-items" data-group="grow">
+    <div class="nav-item" data-s="investments"><span class="icon">📈</span><span class="label">Investments</span></div>
+    <div class="nav-item" data-s="dca"><span class="icon">💹</span><span class="label">DCA Tracker</span></div>
+    <div class="nav-item" data-s="speculative"><span class="icon">🚀</span><span class="label">Speculative</span></div>
+    <div class="nav-item" data-s="compound"><span class="icon">💰</span><span class="label">Compound Calc</span></div>
+  </div>
+</div>
+
+<div class="nav-group">
+  <div class="nav-group-header" data-group="goals"><span class="nav-group-icon">🎯</span><span class="nav-group-label">Goals</span><span class="nav-group-arrow">▸</span></div>
+  <div class="nav-group-items" data-group="goals">
+    <div class="nav-item" data-s="goals"><span class="icon">🎯</span><span class="label">Goals</span></div>
+    <div class="nav-item" data-s="tech"><span class="icon">💻</span><span class="label">Tech Tracker</span></div>
+    <div class="nav-item" data-s="travel"><span class="icon">✈️</span><span class="label">Travel Fund</span></div>
+  </div>
+</div>
+
+<div class="nav-group">
+  <div class="nav-group-header" data-group="tools"><span class="nav-group-icon">🧮</span><span class="nav-group-label">Tools</span><span class="nav-group-arrow">▸</span></div>
+  <div class="nav-group-items" data-group="tools">
+    <div class="nav-item" data-s="whatif"><span class="icon">⚡</span><span class="label">What If?</span></div>
+    <div class="nav-item" data-s="tax"><span class="icon">🏦</span><span class="label">Tax Estimator</span></div>
+    <div class="nav-item" data-s="credit"><span class="icon">💳</span><span class="label">Credit Score</span></div>
+    <div class="nav-item" data-s="stocks"><span class="icon">📡</span><span class="label">Stocks</span></div>
+    <div class="nav-item" data-s="moveout"><span class="icon">🏠</span><span class="label">Move-Out Calc</span></div>
+    <div class="nav-item" data-s="car"><span class="icon">🚗</span><span class="label">Car Calculator</span></div>
+    <div class="nav-item" data-s="loans"><span class="icon">🎒</span><span class="label">Student Loans</span></div>
+  </div>
+</div>
+
+<div class="nav-group">
+  <div class="nav-group-header" data-group="insights"><span class="nav-group-icon">📊</span><span class="nav-group-label">Insights</span><span class="nav-group-arrow">▸</span></div>
+  <div class="nav-group-items" data-group="insights">
+    <div class="nav-item" data-s="calendar"><span class="icon">📆</span><span class="label">Calendar</span></div>
+    <div class="nav-item" data-s="planner"><span class="icon">📋</span><span class="label">Weekly Plan</span></div>
+    <div class="nav-item" data-s="report"><span class="icon">📄</span><span class="label">Monthly Report</span></div>
+    <div class="nav-item" data-s="career"><span class="icon">💼</span><span class="label">Career</span></div>
+    <div class="nav-item" data-s="sidehustle"><span class="icon">🔨</span><span class="label">Side Hustles</span></div>
+    <div class="nav-item" data-s="xp"><span class="icon">⭐</span><span class="label">XP & Quests</span></div>
+    <div class="nav-item" data-s="quiz"><span class="icon">🧠</span><span class="label">Finance Quiz</span></div>
+    <div class="nav-item" data-s="timeline"><span class="icon">📅</span><span class="label">Timeline</span></div>
+  </div>
+</div>
+
 <div class="nav-divider"></div>
 <div class="nav-item" data-s="education"><span class="icon">🎓</span><span class="label">Education</span></div>
 <div class="nav-item" data-s="networth"><span class="icon">💎</span><span class="label">Net Worth</span></div>
 <div class="nav-item" data-s="projections"><span class="icon">🔮</span><span class="label">Projections</span></div>
-<div class="nav-item" data-s="whatif"><span class="icon">⚡</span><span class="label">What If?</span></div>
-<div class="nav-divider"></div>
-<div class="nav-item" data-s="tax"><span class="icon">🏦</span><span class="label">Tax Estimator</span></div>
-<div class="nav-item" data-s="credit"><span class="icon">💳</span><span class="label">Credit Score</span></div>
-<div class="nav-item" data-s="stocks"><span class="icon">📡</span><span class="label">Stocks</span></div>
-<div class="nav-item" data-s="moveout"><span class="icon">🏠</span><span class="label">Move-Out Calc</span></div>
-<div class="nav-item" data-s="car"><span class="icon">🚗</span><span class="label">Car Calculator</span></div>
-<div class="nav-item" data-s="travel"><span class="icon">✈️</span><span class="label">Travel Fund</span></div>
-<div class="nav-item" data-s="loans"><span class="icon">🎒</span><span class="label">Student Loans</span></div>
-<div class="nav-divider"></div>
-<div class="nav-item" data-s="timeline"><span class="icon">📅</span><span class="label">Timeline</span></div>
 <div class="nav-item" data-s="health"><span class="icon">❤️</span><span class="label">Health Score</span></div>
 <div class="nav-item" data-s="settings"><span class="icon">⚙️</span><span class="label">Settings</span></div>
 </aside>
+
+<!-- ===== MOBILE BOTTOM NAV ===== -->
+<nav class="mobile-nav" id="mobileNav">
+  <button class="mob-btn active" data-s="home"><span>🏠</span><span class="mob-lbl">Home</span></button>
+  <button class="mob-btn" data-s="starbucks"><span>☕</span><span class="mob-lbl">Work</span></button>
+  <button class="mob-btn" data-s="budget"><span>📊</span><span class="mob-lbl">Budget</span></button>
+  <button class="mob-btn" data-s="goals"><span>🎯</span><span class="mob-lbl">Goals</span></button>
+  <button class="mob-btn" data-s="investments"><span>📈</span><span class="mob-lbl">Invest</span></button>
+  <button class="mob-btn" id="moreBtn"><span>•••</span><span class="mob-lbl">More</span></button>
+</nav>
+
+<!-- ===== MOBILE MORE OVERLAY ===== -->
+<div class="more-overlay" id="moreOverlay" style="display:none;">
+  <div class="more-header"><h3>All Sections</h3><button class="btn btn-sm btn-g" id="closeMore">✕ Close</button></div>
+  <div class="more-grid">
+    <div class="more-group"><div class="more-group-title">💰 Money</div>
+      <button class="more-item" data-s="starbucks">☕ Pay Center</button>
+      <button class="more-item" data-s="budget">📊 Spending</button>
+      <button class="more-item" data-s="envelopes">✉️ Envelopes</button>
+      <button class="more-item" data-s="bills">📅 Bills</button>
+    </div>
+    <div class="more-group"><div class="more-group-title">📈 Grow</div>
+      <button class="more-item" data-s="investments">📈 Investments</button>
+      <button class="more-item" data-s="dca">💹 DCA Tracker</button>
+      <button class="more-item" data-s="speculative">🚀 Speculative</button>
+      <button class="more-item" data-s="compound">💰 Compound Calc</button>
+    </div>
+    <div class="more-group"><div class="more-group-title">🎯 Goals</div>
+      <button class="more-item" data-s="goals">🎯 Goals</button>
+      <button class="more-item" data-s="tech">💻 Tech Tracker</button>
+      <button class="more-item" data-s="travel">✈️ Travel Fund</button>
+    </div>
+    <div class="more-group"><div class="more-group-title">🧮 Tools</div>
+      <button class="more-item" data-s="whatif">⚡ What If?</button>
+      <button class="more-item" data-s="tax">🏦 Tax Estimator</button>
+      <button class="more-item" data-s="credit">💳 Credit Score</button>
+      <button class="more-item" data-s="stocks">📡 Stocks</button>
+      <button class="more-item" data-s="moveout">🏠 Move-Out Calc</button>
+      <button class="more-item" data-s="car">🚗 Car Calculator</button>
+      <button class="more-item" data-s="loans">🎒 Student Loans</button>
+    </div>
+    <div class="more-group"><div class="more-group-title">📊 Insights</div>
+      <button class="more-item" data-s="calendar">📆 Calendar</button>
+      <button class="more-item" data-s="planner">📋 Weekly Plan</button>
+      <button class="more-item" data-s="report">📄 Monthly Report</button>
+      <button class="more-item" data-s="career">💼 Career</button>
+      <button class="more-item" data-s="sidehustle">🔨 Side Hustles</button>
+      <button class="more-item" data-s="xp">⭐ XP & Quests</button>
+      <button class="more-item" data-s="quiz">🧠 Finance Quiz</button>
+      <button class="more-item" data-s="timeline">📅 Timeline</button>
+    </div>
+    <div class="more-group"><div class="more-group-title">📚 Other</div>
+      <button class="more-item" data-s="education">🎓 Education</button>
+      <button class="more-item" data-s="networth">💎 Net Worth</button>
+      <button class="more-item" data-s="projections">🔮 Projections</button>
+      <button class="more-item" data-s="health">❤️ Health Score</button>
+      <button class="more-item" data-s="settings">⚙️ Settings</button>
+    </div>
+  </div>
+</div>
 
 
 <!-- ===== TOPBAR ===== -->
@@ -216,29 +302,7 @@
 </div>
 </div>
 
-<!-- Spending Heatmap -->
-<div class="card mb">
-<div class="card-h"><span class="card-t">📊 Spending Heatmap</span></div>
-<div class="heatmap-container" id="spendingHeatmap"></div>
-</div>
-
-<!-- Weekly Challenge -->
-<div class="card mb">
-<div class="card-h"><span class="card-t">🎲 Weekly Challenge</span></div>
-<div id="weeklyChallenge"></div>
-</div>
-
-<!-- Shareable Card -->
-<div class="card mb">
-<div class="card-h"><span class="card-t">📸 Shareable Progress Card</span><button class="btn btn-sm btn-g" id="btn-gen-share">Generate</button></div>
-<div id="shareableCard"></div>
-</div>
-
-<!-- Anonymous Benchmark -->
-<div class="card mb">
-<div class="card-h"><span class="card-t">📊 How You Compare</span></div>
-<div id="benchmarkContent"></div>
-</div>
+<!-- Moved to their respective sections -->
 </div>
 
 
@@ -371,6 +435,11 @@
 </div>
 <button class="btn btn-g" id="btn-calc-cpu">Calculate</button>
 <div id="cpuResult"></div>
+</div>
+<!-- Spending Heatmap (moved from home) -->
+<div class="card mb">
+<div class="card-h"><span class="card-t">📊 28-Day Spending Heatmap</span></div>
+<div class="heatmap-container" id="spendingHeatmap"></div>
 </div>
 </div>
 
@@ -673,6 +742,8 @@
 </div>
 <div class="card mb">
 <div class="card-h"><span class="card-t">🎲 Weekly Challenges</span></div>
+<div id="weeklyChallenge"></div>
+<div class="divider"></div>
 <div id="weeklyChallengesFull"></div>
 </div>
 </div>
@@ -922,6 +993,15 @@
 <div class="card-h"><span class="card-t">🏆 Achievements</span></div>
 <div id="achievements-list"></div>
 </div>
+</div>
+<!-- Moved from home for cleaner layout -->
+<div class="card mb">
+<div class="card-h"><span class="card-t">📸 Shareable Progress Card</span><button class="btn btn-sm btn-g" id="btn-gen-share">Generate</button></div>
+<div id="shareableCard"></div>
+</div>
+<div class="card mb">
+<div class="card-h"><span class="card-t">📊 How You Compare</span></div>
+<div id="benchmarkContent"></div>
 </div>
 </div>
 
